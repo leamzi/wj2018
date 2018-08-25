@@ -1,21 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿namespace Assets.Scripts
+{
+    public static class TimeToggle
+    {
+        public static GameMode GameMode;
 
-public class TimeToggle : MonoBehaviour {
-    public delegate void swapButton();
-    public static event swapButton onPress;
-	// Use this for initialization
-	void Start () {
-        onPress();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown(KeyCode.K))
+        public delegate void SwapButton();
+        public static event SwapButton OnPress;
+
+        public static void SwitchGameMode(GameMode mode)
         {
-            if (onPress != null)
-                onPress();
+            GameMode = mode;
+            OnPress();
         }
-	}
+    }
 }
