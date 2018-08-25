@@ -7,7 +7,7 @@ public class TimeToggle : MonoBehaviour {
     public static event swapButton onPress;
 	// Use this for initialization
 	void Start () {
-        onPress();
+     //   onPress();
 	}
 	
 	// Update is called once per frame
