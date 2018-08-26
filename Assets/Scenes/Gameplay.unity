@@ -759,7 +759,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 974febd09d1b47043836b209604d2262, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1290,6 +1290,11 @@ Prefab:
     - target: {fileID: 4784168581299886, guid: 9e5b6f565589b61429b6292b7fcefeb8, type: 2}
       propertyPath: m_LocalScale.z
       value: 2.4366
+      objectReference: {fileID: 0}
+    - target: {fileID: 212499150804535154, guid: 9e5b6f565589b61429b6292b7fcefeb8,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e5b6f565589b61429b6292b7fcefeb8, type: 2}
