@@ -23,13 +23,15 @@ namespace Player
                 var collideCollectable = other.GetComponent<Collectible>();
                 Debug.Log("objeto agarra2");
 
-                if (inventory.itemList.Find(collectable => collectable.ID != collideCollectable.ID))
-                {
+                //if (inventory.itemList.Find((collectable => collectable.ID == collideCollectable.ID)))
+                
 
-                    Collectible newItem = new Collectible(collideCollectable.objectName, collideCollectable.ID);
+                Collectible newItem = new Collectible(collideCollectable.objectName, collideCollectable.ID);
 
-                    inventory.itemList.Add(newItem);
-                }
+                inventory.itemList.Add(newItem);
+                inventory.UpdateAmount();
+                Debug.Log("agarra el item");
+              
 
                 other.gameObject.SetActive(false);
             }
