@@ -8,6 +8,12 @@ namespace Player
     {
         public Inventory inventory;
         public PlayerRespawner respawner;
+        Transform player;
+
+        private void Awake()
+        {
+            player = this.transform;
+        }
 
         void OnTriggerEnter2D(Collider2D other)
         {
@@ -31,15 +37,18 @@ namespace Player
 
             if (other.gameObject.CompareTag("Hazard"))
             {
-                Die();
+                player.gameObject.SetActive(false);
+                Invoke("Die",.5f);
+                //
+                Debug.Log("hajshdk");
             }
         }
 
         public void Die()
         {
-            this.gameObject.SetActive(false);
-            if(respawner != null) respawner.Respawn();
-            this.gameObject.SetActive(true);
+            player.gameObject.SetActive(true);
+            if (respawner != null) respawner.Respawn();
+            
         }
     }
 }

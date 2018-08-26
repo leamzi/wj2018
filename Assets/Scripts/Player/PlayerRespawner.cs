@@ -10,8 +10,8 @@ namespace Player
         void Start()
         {
             respawnPosition = GameObject.Find("InitialSpawner").transform.position;
-            player = Instantiate(player, respawnPosition, Quaternion.identity);
-            ///Respawn();
+            //player = Instantiate(player, respawnPosition, Quaternion.identity);
+            ///////Respawn();
         }
 
         public void Respawn()
