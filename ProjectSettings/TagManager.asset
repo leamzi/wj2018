@@ -9,6 +9,7 @@ TagManager:
   - Collectible
   - CheckPoint
   - Hazard
+  - WinLevel
   layers:
   - Default
   - TransparentFX
