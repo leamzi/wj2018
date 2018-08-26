@@ -5,9 +5,14 @@ namespace Assets.Scripts.UI
 {
     public class GameplayUI : MonoBehaviour
     {
+        
+        public GameObject PastText;
+        public GameObject PresentText;
 
-        public Text GameModeText;
-
+        public void Start()
+        {
+            UpdateMode();
+        }
 
         public void OnEnable()
         {
@@ -21,7 +26,17 @@ namespace Assets.Scripts.UI
 
         void UpdateMode()
         {
-            GameModeText.text = string.Format("{0}", TimeToggle.GameMode);
+            switch (TimeToggle.GameMode)
+            {
+                case GameMode.Present:
+                    PastText.SetActive(false);
+                    PresentText.SetActive(true);
+                    break;
+                case GameMode.Past:
+                    PastText.SetActive(true);
+                    PresentText.SetActive(false);
+                    break;
+            }
         }
 
     }

@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAnim : MonoBehaviour {
     private PlayerMovement playerObj;
@@ -19,15 +16,12 @@ public class PlayerAnim : MonoBehaviour {
         {
             case 0:
                 playerAnim.Play("Idle");
-                Debug.Log("Playing Idle");
                 break;
             case 1:
                 playerAnim.Play("Moving");
-                Debug.Log("Playing Moving");
                 break;
             case 2:
                 playerAnim.Play("Jump");
-                Debug.Log("playing Jump");
                 break;
         }
 

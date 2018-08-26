@@ -195,8 +195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 2
-  speed: 7
-  maxSpeed: 7
+  speed: 5
+  maxSpeed: 5
   jumpTakeOffSpeed: 15
   status: 0
   spriteRenderer: {fileID: 212434750367341428}
@@ -235,8 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb1c0d4b50d8b644194aad7f27333474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerObj: {fileID: 114399566307929786}
-  playerAnim: {fileID: 95205577137131276}
 --- !u!114 &114884279949839974
 MonoBehaviour:
   m_ObjectHideFlags: 1
