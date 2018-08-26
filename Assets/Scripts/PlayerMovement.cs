@@ -16,6 +16,7 @@ public class PlayerMovement : PhysicsObject
         status = 0;
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
+   
 
     protected override void ComputeVelocity()
     {
@@ -55,5 +56,6 @@ public class PlayerMovement : PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
+
 }
 
