@@ -56,3 +56,9 @@ TagManager:
   - name: Front
     uniqueID: 3405993979
     locked: 0
+  - name: Fondo
+    uniqueID: 3517148159
+    locked: 0
+  - name: Frente
+    uniqueID: 451978547
+    locked: 0
