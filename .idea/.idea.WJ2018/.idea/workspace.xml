@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ef5749-488e-406d-9127-fec0d354c2b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartGameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Menu.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +14,7 @@
     <session id="1247944209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -90,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="690">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <marker date="1535270385734" expanded="true" signature="6:75" ph="..." />
                 <marker date="1535270385734" expanded="true" signature="89:966" ph="{...}" />
@@ -248,12 +247,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535263293694</updated>
-      <workItem from="1535263314899" duration="3238000" />
+      <workItem from="1535263314899" duration="3837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3238000" />
+    <option name="totallyTimeSpent" value="3837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,7 +265,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
@@ -375,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <marker date="1535270385734" expanded="true" signature="6:75" ph="..." />
             <marker date="1535270385734" expanded="true" signature="89:966" ph="{...}" />
