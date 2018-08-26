@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ef5749-488e-406d-9127-fec0d354c2b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WJ2018/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Hazard_Vines.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Hazard_Vines.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/GameMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/GameMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameCore/TimeToggle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCore/TimeToggle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/CheckPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/CheckPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/Collectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/Collectible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable/TimeToggleable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable/TimeToggleable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnim.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollisions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollisions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRespawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRespawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameplayUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameplayUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/PhysicsObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/PhysicsObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/RotationScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/RotationScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WJ2018/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartGameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Menu.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +22,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="54" />
+          <entry key="cs" value="404" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="54" />
+          <entry key="C#" value="404" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -85,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameplayUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="510">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding>
                 <marker date="1535268706415" expanded="true" signature="6:34" ph="..." />
                 <marker date="1535268706415" expanded="true" signature="48:1332" ph="{...}" />
@@ -106,12 +87,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuUI.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <marker date="1535270385734" expanded="true" signature="6:75" ph="..." />
+                <marker date="1535270385734" expanded="true" signature="89:966" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="132:964" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="405:485" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="509:707" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="734:779" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="801:842" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="861:911" ph="{...}" />
+                <marker date="1535270385734" expanded="true" signature="930:961" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameCore/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameplayUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameCore/GameMode.cs" root0="FORCE_HIGHLIGHTING" />
@@ -122,6 +124,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactable/TimeToggleable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameplayUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenuUI.cs" />
       </list>
     </option>
   </component>
@@ -245,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535263293694</updated>
-      <workItem from="1535263314899" duration="1978000" />
+      <workItem from="1535263314899" duration="3238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1978000" />
+    <option name="totallyTimeSpent" value="3238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameplayUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="510">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding>
             <marker date="1535268706415" expanded="true" signature="6:34" ph="..." />
             <marker date="1535268706415" expanded="true" signature="48:1332" ph="{...}" />
@@ -366,6 +369,24 @@
             <marker date="1535268706415" expanded="true" signature="615:841" ph="{...}" />
             <marker date="1535268706415" expanded="true" signature="888:1119" ph="{...}" />
             <marker date="1535268706415" expanded="true" signature="1153:1324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1535270385734" expanded="true" signature="6:75" ph="..." />
+            <marker date="1535270385734" expanded="true" signature="89:966" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="132:964" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="405:485" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="509:707" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="734:779" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="801:842" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="861:911" ph="{...}" />
+            <marker date="1535270385734" expanded="true" signature="930:961" ph="{...}" />
           </folding>
         </state>
       </provider>

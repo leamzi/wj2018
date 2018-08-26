@@ -358,6 +358,7 @@
           </e>
           <e p="UI" t="Include">
             <e p="GameplayUI.cs" t="Include" />
+            <e p="MainMenuUI.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
             <e p="PhysicsObject.cs" t="Include" />
