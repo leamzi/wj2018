@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using GameCore;
+using UnityEngine;
 
-namespace Assets.Scripts
+namespace Player
 {
     class PlayerInput : MonoBehaviour
     {

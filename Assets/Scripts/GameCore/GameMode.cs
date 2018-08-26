@@ -1,5 +1,8 @@
-﻿public enum GameMode
+﻿namespace GameCore
 {
-    Present,
-    Past
+    public enum GameMode
+    {
+        Present,
+        Past
+    }
 }

@@ -1002,6 +1002,16 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9970f6b7884c0489b0b2fc1b990e50, type: 2}
   m_IsPrefabAsset: 0
+--- !u!198 &690336802 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198507341122996834, guid: fc9970f6b7884c0489b0b2fc1b990e50,
+    type: 2}
+  m_PrefabInternal: {fileID: 690336801}
+--- !u!198 &690336803 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198195857949354588, guid: fc9970f6b7884c0489b0b2fc1b990e50,
+    type: 2}
+  m_PrefabInternal: {fileID: 690336801}
 --- !u!1 &701771909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +1949,10 @@ Prefab:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1678818600189824, guid: cefa22b5cc0866a419dbf5c449186a59, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefa22b5cc0866a419dbf5c449186a59, type: 2}
   m_IsPrefabAsset: 0
@@ -2201,6 +2215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PastText: {fileID: 1210548232}
   PresentText: {fileID: 658124803}
+  RainVfx: {fileID: 690336803}
+  RainVfx02: {fileID: 690336802}
 --- !u!1 &1846991094
 GameObject:
   m_ObjectHideFlags: 0

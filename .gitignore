@@ -43,6 +43,12 @@ ehthumbs.db
 Thumbs.db
 
 # ============= #
+# Rider         #
+# ============= #
+Assets/Plugins/Editor/JetBrains
+Assets/Plugins/Editor/JetBrains.meta
+
+# ============= #
 # Unity3D generated meta files
 # ============= #
 *.pidb.meta

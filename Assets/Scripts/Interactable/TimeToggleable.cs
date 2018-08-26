@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using GameCore;
+using UnityEngine;
 
-namespace Assets.Scripts
+namespace Interactable
 {
     public class TimeToggleable : MonoBehaviour {
 
@@ -34,6 +35,7 @@ namespace Assets.Scripts
                     break;
             }
         }
+        
 
         private void SetToPresent()
         {

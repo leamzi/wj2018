@@ -1,13 +1,16 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using GameCore;
+using UnityEngine;
 
-namespace Assets.Scripts.UI
+namespace UI
 {
     public class GameplayUI : MonoBehaviour
     {
         
         public GameObject PastText;
         public GameObject PresentText;
+
+        public ParticleSystem RainVfx;
+        public ParticleSystem RainVfx02;
 
         public void Start()
         {
@@ -29,15 +32,32 @@ namespace Assets.Scripts.UI
             switch (TimeToggle.GameMode)
             {
                 case GameMode.Present:
-                    PastText.SetActive(false);
-                    PresentText.SetActive(true);
+                    SetPresentUI();
                     break;
                 case GameMode.Past:
-                    PastText.SetActive(true);
-                    PresentText.SetActive(false);
+                    SetPastUI();
                     break;
             }
         }
 
+        private void SetPresentUI()
+        {
+            PastText.SetActive(false);
+            PresentText.SetActive(true);
+            
+            RainVfx.Stop();
+            RainVfx.Clear();
+            RainVfx02.Stop();
+            RainVfx02.Clear();
+        }
+
+        private void SetPastUI()
+        {
+            PastText.SetActive(true);
+            PresentText.SetActive(false);
+            
+            RainVfx.Play();
+            RainVfx02.Play();
+        }
     }
 }

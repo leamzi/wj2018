@@ -1,10 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Interactable;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour {
+namespace GameCore
+{
+    public class Inventory : MonoBehaviour {
 
-    public List<Collectible> itemList = new List<Collectible>();
+        public List<Collectible> itemList = new List<Collectible>();
 
 
+    }
 }

@@ -1,18 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Collectible : MonoBehaviour {
+namespace Interactable
+{
+    public class Collectible : MonoBehaviour {
 
 
-    public string objectName;
-    public int ID;
+        public string objectName;
+        public int ID;
 
-    public Collectible(string newName, int newID)
-    {
-        objectName = newName;
-        ID = newID;
-    }
+        public Collectible(string newName, int newID)
+        {
+            objectName = newName;
+            ID = newID;
+        }
 
     
+    }
 }

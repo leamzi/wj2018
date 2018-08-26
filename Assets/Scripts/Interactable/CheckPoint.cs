@@ -1,22 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Player;
 using UnityEngine;
 
-public class CheckPoint : MonoBehaviour
+namespace Interactable
 {
-    PlayerRespawner respawner;
-
-    private void Start()
+    public class CheckPoint : MonoBehaviour
     {
-        respawner = GameObject.Find("PlayerRespawner").GetComponent<PlayerRespawner>();
-    }
+        PlayerRespawner respawner;
 
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
+        private void Start()
         {
-            respawner.SetPosition(this.transform.position);
+            respawner = GameObject.Find("PlayerRespawner").GetComponent<PlayerRespawner>();
+        }
+
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                respawner.SetPosition(this.transform.position);
+            }
         }
     }
 }

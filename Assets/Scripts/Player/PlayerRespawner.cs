@@ -1,26 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerRespawner : MonoBehaviour {
+namespace Player
+{
+    public class PlayerRespawner : MonoBehaviour {
 
-    Vector2 respawnPosition;
-    public GameObject player;
+        Vector2 respawnPosition;
+        public GameObject player;
 
-    void Start()
-    {
-        respawnPosition = GameObject.Find("InitialSpawner").transform.position;
-        player = Instantiate(player, respawnPosition, Quaternion.identity);
-        ///Respawn();
-    }
+        void Start()
+        {
+            respawnPosition = GameObject.Find("InitialSpawner").transform.position;
+            player = Instantiate(player, respawnPosition, Quaternion.identity);
+            ///Respawn();
+        }
 
-    public void Respawn()
-    {
-        player.transform.position = respawnPosition;
-    }
+        public void Respawn()
+        {
+            player.transform.position = respawnPosition;
+        }
 
-    public void SetPosition(Vector2 trans)
-    {
-        respawnPosition = trans;
+        public void SetPosition(Vector2 trans)
+        {
+            respawnPosition = trans;
+        }
     }
 }

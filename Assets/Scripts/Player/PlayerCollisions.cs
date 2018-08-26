@@ -1,40 +1,45 @@
-﻿using UnityEngine;
+﻿using GameCore;
+using Interactable;
+using UnityEngine;
 
-public class PlayerCollisions : MonoBehaviour
+namespace Player
 {
-    public Inventory inventory;
-    public PlayerRespawner respawner;
-
-    void OnTriggerEnter2D(Collider2D other)
+    public class PlayerCollisions : MonoBehaviour
     {
+        public Inventory inventory;
+        public PlayerRespawner respawner;
 
-        if (other.gameObject.CompareTag("Collectible"))
+        void OnTriggerEnter2D(Collider2D other)
         {
-            var collideCollectable = other.GetComponent<Collectible>();
-            Debug.Log("objeto agarra2");
 
-            if (inventory.itemList.Find(collectable => collectable.ID != collideCollectable.ID))
+            if (other.gameObject.CompareTag("Collectible"))
             {
+                var collideCollectable = other.GetComponent<Collectible>();
+                Debug.Log("objeto agarra2");
 
-                Collectible newItem = new Collectible(collideCollectable.objectName, collideCollectable.ID);
+                if (inventory.itemList.Find(collectable => collectable.ID != collideCollectable.ID))
+                {
 
-                inventory.itemList.Add(newItem);
+                    Collectible newItem = new Collectible(collideCollectable.objectName, collideCollectable.ID);
+
+                    inventory.itemList.Add(newItem);
+                }
+
+                other.gameObject.SetActive(false);
             }
 
-            other.gameObject.SetActive(false);
+
+            if (other.gameObject.CompareTag("Hazard"))
+            {
+                Die();
+            }
         }
 
-
-        if (other.gameObject.CompareTag("Hazard"))
+        public void Die()
         {
-            Die();
+            this.gameObject.SetActive(false);
+            if(respawner != null) respawner.Respawn();
+            this.gameObject.SetActive(true);
         }
-    }
-
-    public void Die()
-    {
-        this.gameObject.SetActive(false);
-        if(respawner != null) respawner.Respawn();
-        this.gameObject.SetActive(true);
     }
 }
