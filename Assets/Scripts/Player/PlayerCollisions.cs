@@ -44,6 +44,15 @@ namespace Player
                 //
                 Debug.Log("hajshdk");
             }
+
+            if (other.gameObject.CompareTag("WinLevel"))
+            {
+                if (inventory.CheckInvetoryFull())
+                {
+                other.gameObject.GetComponent<GameSceneLoader>(). LoadNextLevel();
+
+                }
+            }
         }
 
         public void Die()
