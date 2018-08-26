@@ -15,7 +15,11 @@ using UnityEngine;
             Debug.Log("asdasd");
         }
 
-        public bool CheckInvetoryFull()
+    private void Start()
+    {
+        itemList.Clear();
+    }
+    public bool CheckInvetoryFull()
         {
         Debug.Log(itemList.Count);
             if (itemList.Count == totalItems)
