@@ -11,7 +11,7 @@ public class PlayerRespawner : MonoBehaviour {
     {
         respawnPosition = GameObject.Find("InitialSpawner").transform.position;
         player = Instantiate(player, respawnPosition, Quaternion.identity);
-       /// Respawn();
+        ///Respawn();
     }
 
     public void Respawn()

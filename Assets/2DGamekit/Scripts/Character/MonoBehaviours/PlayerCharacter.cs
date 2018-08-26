@@ -134,7 +134,7 @@ namespace Gamekit2D
             m_TanHurtJumpAngle = Mathf.Tan(Mathf.Deg2Rad * hurtJumpAngle);
             m_FlickeringWait = new WaitForSeconds(flickeringDuration);
 
-            meleeDamager.DisableDamage();
+            //meleeDamager.DisableDamage();
 
             m_ShotSpawnGap = 1f / shotsPerSecond;
             m_NextShotTime = Time.time;
@@ -204,7 +204,7 @@ namespace Gamekit2D
             m_CharacterController2D.Move(m_MoveVector * Time.deltaTime);
             m_Animator.SetFloat(m_HashHorizontalSpeedPara, m_MoveVector.x);
             m_Animator.SetFloat(m_HashVerticalSpeedPara, m_MoveVector.y);
-            UpdateBulletSpawnPointPositions();
+            //UpdateBulletSpawnPointPositions();
             UpdateCameraFollowTargetPosition();
         }
 
@@ -443,7 +443,7 @@ namespace Gamekit2D
 
                 if (!wasGrounded && m_MoveVector.y < -1.0f)
                 {//only play the landing sound if falling "fast" enough (avoid small bump playing the landing sound)
-                    landingAudioPlayer.PlayRandomSound(m_CurrentSurface);
+                    //landingAudioPlayer.PlayRandomSound(m_CurrentSurface);
                 }
             }
             else
@@ -765,12 +765,12 @@ namespace Gamekit2D
         }
 
         public void PlayFootstep()
-        {
-            footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
-            var footstepPosition = transform.position;
-            footstepPosition.z -= 1;
-            VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
-        }
+            {
+               footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
+               var footstepPosition = transform.position;
+              footstepPosition.z -= 1;
+               VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
+            }
 
         public void Respawn(bool resetHealth, bool useCheckpoint)
         {

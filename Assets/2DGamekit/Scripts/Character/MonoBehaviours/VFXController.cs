@@ -98,7 +98,7 @@ namespace Gamekit2D
                 if (instance != null)
                     return instance;
 
-                return CreateDefault ();
+                return null; /*CreateDefault ();*/
             }
         }
 
