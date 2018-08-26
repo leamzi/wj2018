@@ -9,7 +9,6 @@ namespace Player
         void Start() {
             playerObj = FindObjectOfType<PlayerMovement>();
             playerAnim = playerObj.GetComponent<Animator>();
-
         }
 	
         // Update is called once per frame
@@ -24,6 +23,7 @@ namespace Player
                     break;
                 case 2:
                     playerAnim.Play("Jump");
+
                     break;
             }
 

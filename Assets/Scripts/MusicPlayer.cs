@@ -5,7 +5,10 @@ using UnityEngine;
 public class MusicPlayer : MonoBehaviour {
 
 	static MusicPlayer instance = null;
-
+    public AudioSource jump;
+    public AudioSource checkpoint;
+    public AudioSource die;
+    public AudioSource collectible;
 	void Awake()	{
 //		Debug.Log ("Music player Awake" + GetInstanceID ());
 		if (instance != null)	{
@@ -26,4 +29,24 @@ public class MusicPlayer : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void PlayJump()
+    {
+        jump.Play();
+    }
+
+     public void PlayCheckpoint()
+    {
+        checkpoint.Play();
+    }
+
+    public void PlayDie()
+    {
+        die.Play();
+    }
+
+    public void PlayCollectible()
+    {
+        collectible.Play();
+    }
 }

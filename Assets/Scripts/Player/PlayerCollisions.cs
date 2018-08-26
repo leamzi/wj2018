@@ -4,8 +4,11 @@ using UnityEngine;
 
 namespace Player
 {
+    
     public class PlayerCollisions : MonoBehaviour
     {
+        MusicPlayer musicplayer;
+
         public Inventory inventory;
         public PlayerRespawner respawner;
         Transform player;
@@ -15,6 +18,12 @@ namespace Player
             player = this.transform;
         }
 
+        private void Start()
+        {
+            
+            musicplayer = GameObject.Find("Music Player").GetComponent<MusicPlayer>();
+        }
+
         void OnTriggerEnter2D(Collider2D other)
         {
 
@@ -22,7 +31,7 @@ namespace Player
             {
                 var collideCollectable = other.GetComponent<Collectible>();
                 Debug.Log("objeto agarra2");
-
+                musicplayer.PlayCollectible();
                 //if (inventory.itemList.Find((collectable => collectable.ID == collideCollectable.ID)))
                 
 
@@ -40,8 +49,10 @@ namespace Player
             if (other.gameObject.CompareTag("Hazard"))
             {
                 player.gameObject.SetActive(false);
+                musicplayer.PlayDie();
                 Invoke("Die",.5f);
                 //
+
                 Debug.Log("hajshdk");
             }
 
@@ -49,6 +60,7 @@ namespace Player
             {
                 if (inventory.CheckInvetoryFull())
                 {
+                musicplayer.PlayCheckpoint();
                 other.gameObject.GetComponent<GameSceneLoader>(). LoadNextLevel();
 
                 }
