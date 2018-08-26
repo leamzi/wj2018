@@ -34,6 +34,7 @@ namespace Player
             {
                 velocity.y = jumpTakeOffSpeed;
                 status = 2;
+                gameObject.GetComponent<AudioSource>().Play();
                 Debug.Log("jumped");
             }
             //else if (Input.GetButtonUp("Jump"))
