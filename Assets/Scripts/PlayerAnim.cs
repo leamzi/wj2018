@@ -4,10 +4,13 @@ using Assets.Scripts;
 using UnityEngine;
 
 public class PlayerAnim : MonoBehaviour {
-    public PlayerMovement playerObj;
-    public Animator playerAnim;
-	// Use this for initialization
-	void Start () {
+    private PlayerMovement playerObj;
+    private Animator playerAnim;
+    // Use this for initialization
+    void Start() {
+        playerObj = FindObjectOfType<PlayerMovement>();
+        playerAnim = playerObj.GetComponent<Animator>();
+
 	}
 	
 	// Update is called once per frame
