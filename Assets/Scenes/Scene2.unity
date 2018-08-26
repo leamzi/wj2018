@@ -1921,6 +1921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131359643}
   - component: {fileID: 1131359642}
+  - component: {fileID: 1131359644}
   m_Layer: 0
   m_Name: obstacle_cage_past
   m_TagString: Untagged
@@ -1989,6 +1990,31 @@ Transform:
   m_Father: {fileID: 1803987643}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1131359644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1131359641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.37232542}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10, y: 10}
+    newSize: {x: 10, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.305335}
+  m_EdgeRadius: 0
 --- !u!4 &1144829268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4246182717426142, guid: 041e247bbec52c04fbfde2f19c8ce428,
@@ -2101,11 +2127,11 @@ Prefab:
       objectReference: {fileID: 1726970417}
     - target: {fileID: 4543005443505528, guid: fc9970f6b7884c0489b0b2fc1b990e50, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 42.588383
+      value: 41.60213
       objectReference: {fileID: 0}
     - target: {fileID: 4543005443505528, guid: fc9970f6b7884c0489b0b2fc1b990e50, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.2004149
+      value: -0.20334077
       objectReference: {fileID: 0}
     - target: {fileID: 4463930601054240, guid: fc9970f6b7884c0489b0b2fc1b990e50, type: 2}
       propertyPath: m_LocalPosition.x
