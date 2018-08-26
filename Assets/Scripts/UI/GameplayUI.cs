@@ -1,5 +1,6 @@
 ﻿using GameCore;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace UI
 {
@@ -15,6 +16,14 @@ namespace UI
         public void Start()
         {
             UpdateMode();
+            if (SceneManager.GetActiveScene().buildIndex != 1)
+            {
+                Debug.Log("rain");
+                RainVfx.Stop();
+                RainVfx.Clear();
+                RainVfx02.Stop();
+                RainVfx02.Clear();
+            }
         }
 
         public void OnEnable()
@@ -44,11 +53,15 @@ namespace UI
         {
             PastText.SetActive(false);
             PresentText.SetActive(true);
-            
-            RainVfx.Stop();
-            RainVfx.Clear();
-            RainVfx02.Stop();
-            RainVfx02.Clear();
+
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                Debug.Log("rain");
+                RainVfx.Stop();
+                RainVfx.Clear();
+                RainVfx02.Stop();
+                RainVfx02.Clear();
+            }
         }
 
         private void SetPastUI()
@@ -56,8 +69,12 @@ namespace UI
             PastText.SetActive(true);
             PresentText.SetActive(false);
             
-            RainVfx.Play();
-            RainVfx02.Play();
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                RainVfx.Play();
+                RainVfx02.Play();
+
+            }
         }
     }
 }
