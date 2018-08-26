@@ -451,6 +451,16 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114871818455566574, guid: cefa22b5cc0866a419dbf5c449186a59,
+        type: 2}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 2132215050}
+    - target: {fileID: 114871818455566574, guid: cefa22b5cc0866a419dbf5c449186a59,
+        type: 2}
+      propertyPath: playerAnim
+      value: 
+      objectReference: {fileID: 2132215048}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefa22b5cc0866a419dbf5c449186a59, type: 2}
   m_IsPrefabAsset: 0
@@ -504,11 +514,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4543005443505528, guid: fc9970f6b7884c0489b0b2fc1b990e50, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 39.693943
+      value: 50.99919
       objectReference: {fileID: 0}
     - target: {fileID: 4543005443505528, guid: fc9970f6b7884c0489b0b2fc1b990e50, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.43912727
+      value: 0.43937522
       objectReference: {fileID: 0}
     - target: {fileID: 114333767624210452, guid: fc9970f6b7884c0489b0b2fc1b990e50,
         type: 2}
@@ -1388,3 +1398,14 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1421454324}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!95 &2132215048 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95205577137131276, guid: cefa22b5cc0866a419dbf5c449186a59,
+    type: 2}
+  m_PrefabInternal: {fileID: 626918506}
+--- !u!114 &2132215050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114949331994810870, guid: cefa22b5cc0866a419dbf5c449186a59,
+    type: 2}
+  m_PrefabInternal: {fileID: 626918506}
+  m_Script: {fileID: 11500000, guid: 8a7fca106e8274c48bd858394627f547, type: 3}
