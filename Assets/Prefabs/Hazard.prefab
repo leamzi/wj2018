@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 60412811569259272}
   - component: {fileID: 114147499053822982}
   - component: {fileID: 50914470408134238}
-  - component: {fileID: 114285958889562408}
   m_Layer: 0
   m_Name: Hazard
   m_TagString: Hazard
@@ -102,19 +101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f237af57f42ba4188c915147d82f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114285958889562408
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1372325678589208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f909a5382e129714dbe3ba19f82da79c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectName: 
-  ID: 4
 --- !u!212 &212787501360388224
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -158,6 +144,6 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

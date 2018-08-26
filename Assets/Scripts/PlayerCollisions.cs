@@ -1,17 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerCollisions : MonoBehaviour
 {
-    Inventory inventory;
-    PlayerRespawner respawner;
-    private void Start()
-    {
-        respawner = GameObject.Find("PlayerRespawner").GetComponent<PlayerRespawner>();
-        inventory = GetComponent<Inventory>();
-    }
-
+    public Inventory inventory;
+    public PlayerRespawner respawner;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -42,7 +34,7 @@ public class PlayerCollisions : MonoBehaviour
     public void Die()
     {
         this.gameObject.SetActive(false);
-        respawner.Respawn();
+        if(respawner != null) respawner.Respawn();
         this.gameObject.SetActive(true);
     }
 }

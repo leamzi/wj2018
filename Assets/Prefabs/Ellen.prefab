@@ -71,7 +71,6 @@ GameObject:
   - component: {fileID: 70089740344141440}
   - component: {fileID: 50327575930153848}
   - component: {fileID: 114922960636122892}
-  - component: {fileID: 114413870252957072}
   - component: {fileID: 114938718447013000}
   - component: {fileID: 114076933360148118}
   m_Layer: 13
@@ -304,22 +303,6 @@ MonoBehaviour:
   levelLayermask:
     serializedVersion: 2
     m_Bits: 2147483648
---- !u!114 &114413870252957072
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1844307894615778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a7fca106e8274c48bd858394627f547, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minGroundNormalY: 0.65
-  gravityModifier: 1
-  speed: 2
-  maxSpeed: 7
-  jumpTakeOffSpeed: 10
 --- !u!114 &114922960636122892
 MonoBehaviour:
   m_ObjectHideFlags: 1
