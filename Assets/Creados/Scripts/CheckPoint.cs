@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    Respawner respawner;
+    PlayerRespawner respawner;
 
     private void Start()
     {
-        respawner = GameObject.Find("Respawner").GetComponent<Respawner>();
+        respawner = GameObject.Find("PlayerRespawner").GetComponent<PlayerRespawner>();
     }
 
 

@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 114922960636122892}
   - component: {fileID: 114413870252957072}
   - component: {fileID: 114938718447013000}
+  - component: {fileID: 114076933360148118}
   m_Layer: 13
   m_Name: Ellen
   m_TagString: Player
@@ -274,6 +275,17 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114076933360148118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844307894615778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720b82c657005dd4585f3ba7d68fa338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114258585916651598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -305,8 +317,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 1
+  speed: 2
   maxSpeed: 7
-  jumpTakeOffSpeed: 7
+  jumpTakeOffSpeed: 10
 --- !u!114 &114922960636122892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -320,6 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 1
+  speed: 5
 --- !u!114 &114938718447013000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -331,6 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e60038a536f5d3a4089f0673c58b7966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemList: []
 --- !u!212 &212594873110885616
 SpriteRenderer:
   m_ObjectHideFlags: 1

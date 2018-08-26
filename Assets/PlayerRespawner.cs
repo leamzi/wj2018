@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Respawner : MonoBehaviour {
+public class PlayerRespawner : MonoBehaviour {
 
     Vector2 respawnPosition;
     public GameObject player;
@@ -11,7 +11,7 @@ public class Respawner : MonoBehaviour {
     {
         respawnPosition = GameObject.Find("InitialSpawner").transform.position;
         player = Instantiate(player, respawnPosition, Quaternion.identity);
-        Respawn();
+       /// Respawn();
     }
 
     public void Respawn()
